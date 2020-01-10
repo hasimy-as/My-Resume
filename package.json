@@ -1,0 +1,27 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "This shows my Resume through the usage of NPM.",
+  "main": "resume.js",
+  "bin": {
+    "resume-hasimy": "./resume.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasimy-as/My-Resume.git"
+  },
+  "author": "Hasimy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hasimy-as/My-Resume/issues"
+  },
+  "homepage": "https://github.com/hasimy-as/My-Resume#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.3"
+  }
+}
