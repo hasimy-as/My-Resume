@@ -13,7 +13,8 @@ const options = {
   type: "list",
   name: "ResumeOptions",
   message: "What would you like to know?",
-  choices: [...Object.keys(Resume), "See you!"]
+  choices: [...
+    Object.keys(Resume), "See you!"]
 };
 
 const showResume = () => {
